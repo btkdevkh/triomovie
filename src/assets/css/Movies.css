@@ -1,0 +1,27 @@
+.movies {
+  margin: 5px 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5px;
+}
+
+@media (min-width: 524px) {
+  .movies {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 824px) {
+  .movies {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .movies {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (min-width: 1424px) {
+  .movies {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
