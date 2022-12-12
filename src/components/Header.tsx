@@ -15,8 +15,8 @@ export default function Header({ handleChange }: Props) {
         <Search handleChange={handleChange} />
         <nav>
           <ul>
-            <li><Link to="/recent"><FontAwesomeIcon icon={faFileVideo} /> </Link></li>
-            <li><Link to="/movies"><FontAwesomeIcon icon={faVideo} /> </Link></li>
+            <li><Link to="/recent"><FontAwesomeIcon icon={faFileVideo} size='xl' /> </Link></li>
+            <li><Link to="/movies"><FontAwesomeIcon icon={faVideo} size='xl' /> </Link></li>
           </ul>
         </nav>
       </div>
